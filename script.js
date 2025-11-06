@@ -25,4 +25,14 @@ if (motDePasseAttendu===motDePasseUtilisateur) {
     console.log("Accès refusé. Mot de passe incorrect.");
 }
 
+const moi = {
+    prenom: "Johan",
+    nom: "moi",
+    age: 18,
+    competences: ["HTML", "CSS"]
+};
+console.log(moi)
+//console.log(moi.prenom);
 
+
+console.log("Je M'appelle " + moi.prenom + " " + moi.nom)
